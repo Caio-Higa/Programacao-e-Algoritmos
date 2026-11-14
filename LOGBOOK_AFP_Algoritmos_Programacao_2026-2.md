@@ -182,8 +182,8 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 01 — 12/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
+1. **Desafio do ciclo (em 1 frase):** _Criar um CRUD com base em um site ou aplicativo real_
+2. **O que implementei (commits / arquivos / links):** _Na primeira versão do CRUD, a básica, construí de forma rústica o sistema de criação de fichas de Ordem Paranormal, utilizando o site C.R.I.S. como base. Utilizei de variáveis únicas para cada operação da ficha, nome, atributos, classe, etc..., laços de repetição e condicionais para realizar as funções de cada segmento. Utilizando, pricipalmente de inputs e dados booleanos para realizar as escolhas do usuário. Ao fim, criando um menu com um laço while para a realização de mudanças na ficha, com a opção de deletar a ficha completamente, modificando os dados para 0._
 3. **Objeto(s) de conhecimento mobilizado(s):** _…_
 4. **Desvio ou erro encontrado + causa técnica:** _…_
 5. **Decisão de ajuste + fonte:** _…_
