@@ -10,7 +10,8 @@ pontosAtributosIniciais = 9;
 #Valores Status
 pontosVida = int;
 pontosDeterminação = int;
-nivelPersonagem = int;
+nivelPersonagem = 0;
+nexPersonagem = nivelPersonagem * 5;
 
 #Lista de Origens
 listaOrigens = ["Artista", "Atleta", "Cientista Forense", "Criminoso", "Desgarrado", "Dublê"];
@@ -132,4 +133,49 @@ while True:
             break;
 
 for i, atributo in enumerate(atributosNomes):
-    print(atributo, atributosTotais[i])
+    print(atributo, atributosTotais[i]);
+
+#Cálculo de Pontos de Vida e Pontos de Determinação
+if classe == 1:
+     pontosVida = 20 + atributosTotais[4]
+     pontosDeterminação = 6 + atributosTotais[3];
+
+if classe == 2:
+     pontosVida = 16 + atributosTotais[4]
+     pontosDeterminação = 8 + atributosTotais[3];
+
+if classe == 3:
+     pontosVida = 12 + atributosTotais[4]
+     pontosDeterminação = 10 + atributosTotais[3];
+
+print("");
+print("Pontos de vida: ", pontosVida, "|", "Pontos de Determinação: ", pontosDeterminação);
+
+#Determinação de nível (NEX) de personagem
+print("");
+print("NEX = Nível de Exposição Paranormal");
+print("Nível de personagem Exemplo: Nível 0 = NEX 0%, Nível 1 = NEX 5%, Nível 2 = NEX 10%");
+print("");
+
+while True:
+    nivelPersonagem = int(input("Digite o nível do seu personagem: "));
+
+    if (type(nivelPersonagem) == int):
+        print("Nível aceito.")
+        print("")
+        break;
+
+    else:
+        continue;
+
+if classe == 1:
+     pontosVida = pontosVida + ((4 + atributosTotais[4]) * (nivelPersonagem - 1))
+     pontosDeterminação = pontosDeterminação + ((3 + atributosTotais[3]) * (nivelPersonagem - 1));
+
+if classe == 2:
+     pontosVida = pontosVida + ((3 + atributosTotais[4]) * (nivelPersonagem - 1))
+     pontosDeterminação = pontosDeterminação + ((4 + atributosTotais[3]) * (nivelPersonagem - 1));
+
+if classe == 3:
+     pontosVida = pontosVida + ((2 + atributosTotais[4]) * (nivelPersonagem - 1))
+     pontosDeterminação = pontosDeterminação + ((5 + atributosTotais[3]) * (nivelPersonagem - 1));
