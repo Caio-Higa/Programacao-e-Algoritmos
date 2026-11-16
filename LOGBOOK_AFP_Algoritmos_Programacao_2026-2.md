@@ -107,9 +107,9 @@ Atualize a cada commit (troque ⬜ por ✅).
 | Grupo | Item | Prazo | Preenchido | Commit |
 |:--:|---|---|:--:|:--:|
 | 1 | Identificação | 16/11 | ✅ | ✅ |
-| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 01 — Instrumento de entrada | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 02 — Aprofundamento | 16/11 | ⬜ | ⬜ |
+| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ✅ | ✅ |
+| 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ | ✅ |
+| 1 | Campo 02 — Aprofundamento | 16/11 | ✅ | ✅ |
 | 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
 | 2 | Checkpoint Conceitual | 21/11 | ⬜ | ⬜ |
 | 2 | Campo 03 — Execução e desvios | 21/11 | ⬜ | ⬜ |
@@ -184,11 +184,11 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 #### Registro do Ciclo 01 — 12/08
 1. **Desafio do ciclo (em 1 frase):** _Criar um CRUD com base em um site ou aplicativo real_
 2. **O que implementei (commits / arquivos / links):** _Na primeira versão do CRUD, a básica, construí de forma rústica o sistema de criação de fichas de Ordem Paranormal, utilizando o site C.R.I.S. como base. Utilizei de variáveis únicas para cada operação da ficha, nome, atributos, classe, etc..., laços de repetição e condicionais para realizar as funções de cada segmento. Utilizando, pricipalmente de inputs e dados booleanos para realizar as escolhas do usuário. Ao fim, criando um menu com um laço while para a realização de mudanças na ficha, com a opção de deletar a ficha completamente, modificando os dados para 0._
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _No começo da disciplina eu já possuía alguns poucos conhecimentos sobre lógica e programação por ter curiosidade sobre a área de desenvolvimentos de jogos e ver inúmeros vídeos sobre o assunto, copiando códigos de vídeos. Dessa forma, já tendo uma noção muito básica sobre variáveis e laços de repetição. Entretanto, todo o resto da disciplina, sobre Git, Github, listas, python, dicionários, algoritmos e programação em geral foi a minha primeira vez e, apesar de ter me sentido muito abaixo da média em comparação com os outros alunos, me esforcei para compreender os assuntos dados nas aulas e testar na prática._
+4. **Desvio ou erro encontrado + causa técnica:** _Dentre os problemas que eu encontrei, tive alguns problemas na instalação do VS code e a configuração dele, enviando os arquivos manualmente para o Github invés de sincronizar o Git e o VS code à plataforma, mas depois de algumas pesquisas consegui configurar e resolver os problemas. Sobre os códigos, muitas vezes eu me via em uma situação onde eu não sabia exatamente como utilizar uma função em específico (Enumerate, por exemplo) e utilizava do site w3schools e da IA para entender como se utilizava corretamente._
+5. **Decisão de ajuste + fonte:** _Alterei a forma como as listas eram mostradas no terminal. Saindo de um print escrito manualmente para um print mais refinado, utilizando um laço de repetição for e a função enumerate + Fonte de inspiração: Aula sobre dicionários, especificamente, a forma que eram organizadas no print, enumerando os itens._
 6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+7. **Próximo passo:** _Para alterações futuras, planejo adicionar as outras funções da ficha, habilidades, itens, magias, visando ter a ficha 100% funcional._
 
 ## 🟢 CICLO 02 — 19/08 — Variáveis, tipos de dados e entrada/saída
 
@@ -213,19 +213,19 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *Grupo 1 | Prazo segunda 16/11, 23h59 | SEM CONSULTA*
 
 **1a. Objetos de conhecimento identificados (mínimo 3, com vocabulário técnico):**
-1. _…_
-2. _…_
-3. _…_
+1. _Listas: Para organizar os dados sobre Origens, Classes e Atributos_
+2. _Laços de Repetição While: Permite que as ações do usuário só avancem quando a condição for alcançada, caso contrário, continua na mesma etapa._
+3. _Condicionais If, Else, Elif: Permite pôr condições para as etapas da ficha, realizando ações específicas para cada resposta do usuário._
 4. _…_ *(opcional)*
 
 **1b. Lacunas — o que não sei e preciso descobrir (mínimo 3, com precisão técnica):**
-1. _…_
-2. _…_
-3. _…_
+1. _Type: Para garantir que as resposta do usuário só aconteçam com determinado tipo de dado, string ou int, por exemplo, e, caso o usuário coloque um dado diferente do proposto intencionalmente, o programa para._
+2. _Dicionários: Para organizar novas funções, como itens, no futuro._
+3. _Aprender a fazer "menus" melhores: Organizar melhor os prints de terminal ou aprender sobre front-end para entregar um "menu" mais interessante._
 
 **1c. Hipótese inicial em até 5 linhas — com lógica da área de formação:**
 
-> _…_
+> _Por mais que o meu CRUD esteja completo, com todas as funções que eu planejei inicialmente e todas funcionando corretamente. Ainda penso que posso melhorar os códigos e evolui-lôs para um resultado ainda melhor no futuro. Entretanto, sinto falta de uma interface mais rebuscada. Com os conhecimentos que aprenderei no futuro sobre Front-END e interface de usuário em geral, devo alcançar um resultado mais satisfatório._
 
 ### 🧩 CAMPO 02 — Aprofundamento pós-aula
 *AV Qualis — Grupo 1 | Segunda 16/11, 23h59*
