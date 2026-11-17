@@ -273,7 +273,7 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 1. **Desafio do ciclo (em 1 frase):** _…_
 2. **O que implementei (commits / arquivos / links):** _…_
 3. **Objeto(s) de conhecimento mobilizado(s):** _operadores utilizados: If, Else, Elif (Usados principalmente para os "menus"); +, -, >=, <=._
-4. **Desvio ou erro encontrado + causa técnica:** _Confusão entre ==_
+4. **Desvio ou erro encontrado + causa técnica:** _Confusão entre == e =_
 5. **Decisão de ajuste + fonte:** _…_
 6. **Feedback recebido e o que mudei:** _…_
 7. **Próximo passo:** _…_
