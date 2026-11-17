@@ -163,11 +163,11 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 > **Sugestão de ordem:** (1) Identificação → (2) **Campo 01 primeiro, sem consulta** → (3) Registros dos Ciclos 01 a 04 → (4) Campo 02, com pesquisa.
 
 **Checklist do Grupo 1**
-- [ ] Identificação preenchida (app-base, link do repositório, dupla de revisão)
-- [ ] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
-- [ ] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
-- [ ] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
-- [ ] Commits no GitHub e painel atualizado
+- [✅] Identificação preenchida (app-base, link do repositório, dupla de revisão)
+- [✅] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
+- [✅] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
+- [✅] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
+- [✅] Commits no GitHub e painel atualizado
 
 ## 🟢 CICLO 01 — 12/08 — Preparação do laboratório e escolha do projeto
 
@@ -182,7 +182,7 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 01 — 12/08
-1. **Desafio do ciclo (em 1 frase):** _Criar um CRUD com base em um site ou aplicativo real_
+1. **Desafio do ciclo (em 1 frase):** _Criar um CRUD com base no site C.R.I.S. com as funções básicas da ficha do RPG Ordem Paranormal._
 2. **O que implementei (commits / arquivos / links):** _Na primeira versão do CRUD, a básica, construí de forma rústica o sistema de criação de fichas de Ordem Paranormal, utilizando o site C.R.I.S. como base. Utilizei de variáveis únicas para cada operação da ficha, nome, atributos, classe, etc..., laços de repetição e condicionais para realizar as funções de cada segmento. Utilizando, pricipalmente de inputs e dados booleanos para realizar as escolhas do usuário. Ao fim, criando um menu com um laço while para a realização de mudanças na ficha, com a opção de deletar a ficha completamente, modificando os dados para 0._
 3. **Objeto(s) de conhecimento mobilizado(s):** _No começo da disciplina eu já possuía alguns poucos conhecimentos sobre lógica e programação por ter curiosidade sobre a área de desenvolvimentos de jogos e ver inúmeros vídeos sobre o assunto, copiando códigos de vídeos. Dessa forma, já tendo uma noção muito básica sobre variáveis e laços de repetição. Entretanto, todo o resto da disciplina, sobre Git, Github, listas, python, dicionários, algoritmos e programação em geral foi a minha primeira vez e, apesar de ter me sentido muito abaixo da média em comparação com os outros alunos, me esforcei para compreender os assuntos dados nas aulas e testar na prática._
 4. **Desvio ou erro encontrado + causa técnica:** _Dentre os problemas que eu encontrei, tive alguns problemas na instalação do VS code e a configuração dele, enviando os arquivos manualmente para o Github invés de sincronizar o Git e o VS code à plataforma, mas depois de algumas pesquisas consegui configurar e resolver os problemas. Sobre os códigos, muitas vezes eu me via em uma situação onde eu não sabia exatamente como utilizar uma função em específico (Enumerate, por exemplo) e utilizava do site w3schools e da IA para entender como se utilizava corretamente._
@@ -234,12 +234,12 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **2a. Aprofundamento dos objetos de conhecimento (mínimo 2 referências com síntese da contribuição para a solução):**
 
-- **Referência 1:** _…_ — **Contribuição:** _…_
-- **Referência 2:** _…_ — **Contribuição:** _…_
+- **Referência 1:** _Pense em Python - 10.3 - Percorrendo uma lista_ — **Contribuição:** _Auxiliou na montagem dos prints das Origens, Atributos e Classes._
+- **Referência 2:** _Pense em Python - de 7.1 a 7.4: Iteração_ — **Contribuição:** _Auxiliou na compreenção do uso dos laços While, contribuindo para as funções que se repetiriam indefinidamente._
 
 **2b. Hipótese revisada — o que mudou em relação ao Campo 01 e por quê:**
 
-> _…_
+> _Não alterou, pois ainda permaneço com a mesma ideia. Com uma interface mais rebuscada, o projeto como um todo será mais satisfatório, tanto para o autor, quanto ao usuário hipotético._
 
 **2c. Dimensionamento inicial de recursos (recurso, quantidade estimada, justificativa técnica — mínimo 3 itens):**
 
@@ -251,10 +251,10 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 | _…_ | _…_ | _…_ |
 
 #### Registro do Ciclo 02 — 19/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Utilização correta da função enumerate e dos laços de repetição for e while._
+2. **O que implementei (commits / arquivos / links):** _commit: Adição do sistema de seleção de classes e distribuição de atributos_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Função enumerate, laços de repetição For e While._
+4. **Desvio ou erro encontrado + causa técnica:** _Loop infinito após a seleção da classe + causa: Falta do "Break" ao fim do laço if._
 5. **Decisão de ajuste + fonte:** _…_
 6. **Feedback recebido e o que mudei:** _…_
 7. **Próximo passo:** _…_
@@ -272,8 +272,8 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 #### Registro do Ciclo 03 — 26/08
 1. **Desafio do ciclo (em 1 frase):** _…_
 2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _operadores utilizados: If, Else, Elif (Usados principalmente para os "menus"); +, -, >=, <=._
+4. **Desvio ou erro encontrado + causa técnica:** _Confusão entre ==_
 5. **Decisão de ajuste + fonte:** _…_
 6. **Feedback recebido e o que mudei:** _…_
 7. **Próximo passo:** _…_
@@ -291,10 +291,10 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 04 — 02/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Implementar corretamente as condicionais If, Else e Elif, junto dos laços de repetição While._
+2. **O que implementei (commits / arquivos / links):** _Commit: Implementação do sistema de Pontos de vida / Pontos de determinação e sistema de nível de personagem/Implementação do sistema de mudança de ficha, permitindo alterar dados anteriores como Nome, Atributos, Origem, Classe e Nível. Além de poder resetar a ficha._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Estruturas condicionais: If, Else e Elif. Laços de repetição While._
+4. **Desvio ou erro encontrado + causa técnica:** _Problema ao ler o código do Laço While + Causa: Esquecer do salto da margem para garantir que o código esteja dentro do laço._
 5. **Decisão de ajuste + fonte:** _…_
 6. **Feedback recebido e o que mudei:** _…_
 7. **Próximo passo:** _…_
