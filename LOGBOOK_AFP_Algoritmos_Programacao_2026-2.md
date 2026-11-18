@@ -390,8 +390,8 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *AV Qualis — Grupo 2 | Sábado 21/11, 23h59*
 
 **3a. O que descobri que mudou minha compreensão do problema (mínimo 2 achados, com objeto de conhecimento associado):**
-1. _…_ — *Objeto de conhecimento:* _…_
-2. _…_ — *Objeto de conhecimento:* _…_
+1. _…_ — *Objeto de conhecimento:* _Utilização de dados Booleanos como "interruptores" para o sistema de escolhas do usuário (CRUD_1.0)._
+2. _…_ — *Objeto de conhecimento:* _Utilização de índice em listas para escolhas e otimização do sistema de Pontos de Vida._
 3. _…_ *(opcional)*
 
 **3b. Desvio em relação ao Campo 02 (ao menos 1 — causa técnica):**
@@ -399,8 +399,8 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 - **Causa técnica:** _…_
 
 **3c. Decisão de ajuste (ao menos 1) com justificativa e fonte:**
-- **Decisão:** _…_
-- **Fonte:** _…_
+- **Decisão:** _Utilização de Listas no lugar de variáveis com Booleanos (Comparação entre o CRUD_1.0 e CRUD_2.0)_
+- **Fonte:** _Aula: | 07/10 | Listas: armazenamento e iteração_
 
 **Objeto de conhecimento mobilizado nesta decisão:** _…_
 
@@ -409,23 +409,23 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 > **Obrigatório e avaliado. Print sem análise crítica = devolução imediata. Reproduzir a IA sem questionamento = reprovado.**
 
-**4a. Ferramenta:** _…_  **Data:** _DD/MM/AAAA_
+**4a. Ferramenta:** _ChatGPT_  **Data:** _17/11/2026_
 
 **4b. Pergunta formulada (transcrita integralmente):**
 
-> _…_
+> _Estou criando um código mas estou com dúvida para fazer um comando. Eu estou criando um programa de criação de ficha de rpg, porém, desejo que o usuário possa modificar a ficha ao completar ela, caso deseje. Entretanto, com os conhecimentos que possuo, acabo tendo que repetir o mesmo código várias e várias vezes, ao meu ver, de forma ineficiente, pois sei que vai chegar um momento que o sistema nao vai mais conseguir repetir._
 
 **4c. Resposta da IA (resumida em parágrafo):**
 
-> _…_
+> _A IA mostrou como corrigir o problema de laço de repetição com While, além de exemplificar o exemplo de modificação de fichas com dicionários e funções._
 
 **4d. O que aceitei — com referência ao objeto de conhecimento do componente:**
 
-> _…_
+> _Após a análise da resposta da IA, aceitei a forma como era utilizado o laço de repetição While e adaptei para utilizar no CRUD para o sistema de Modificação da ficha._
 
 **4e. O que questionei ou descartei — com argumento técnico ou fonte:**
 
-> _…_
+> _Descartei o uso de dicionário e funções pois, além de não compreender a lógica e a utilização dos códigos. Na data em que eu fiz a pergunta a IA (03/09) o professor Rondineli ainda não havia lecionado sobre tais códigos._
 
 ## 🟠 CICLO 05 — 09/09 — Condicionais aninhadas e operadores lógicos
 
