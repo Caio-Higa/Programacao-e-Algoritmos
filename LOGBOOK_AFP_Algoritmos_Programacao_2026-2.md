@@ -440,10 +440,10 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 05 — 09/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Atenção aos detalhes dos condicionais._
+2. **O que implementei (commits / arquivos / links):** _"if origem <= 6 and origem >= 1". Utilizado condicional AND para garantir que a resposta do usuário se mantivesse dentro do parâmentros definidos e, caso fosse maior que 6 ou menor que 1, pediria, novamente, para que o usuário escolhe o número da origem desejada._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Operadores lógicos e condicionais._
+4. **Desvio ou erro encontrado + causa técnica:** _Resposta 1 retornar para a escolha de origem + Confundir > com >=._
 5. **Decisão de ajuste + fonte:** _…_
 6. **Feedback recebido e o que mudei:** _…_
 7. **Próximo passo:** _…_
@@ -460,10 +460,10 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 06 — 30/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Atenção aos detalhes dos laços, principalmente não esquecer a presença do "break"._
+2. **O que implementei (commits / arquivos / links):** _Implementação do sistema de mudança de ficha, permitindo alterar dados anteriores como Nome, Atributos, Origem, Classe e Nível. Além de poder resetar a ficha._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Laço de repetição For, While._
+4. **Desvio ou erro encontrado + causa técnica:** _Laço ficou infinito + Esquecer de colocar o "break" ao fim da condição._
 5. **Decisão de ajuste + fonte:** _…_
 6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** _…_
 7. **Próximo passo:** _…_
