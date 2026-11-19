@@ -308,9 +308,9 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 > ⚠️ O prazo cai num **sábado**: planeje terminar na sexta. Os campos do Ciclo 03 (Checkpoint, 03 e 04) aparecem **primeiro**, porque são a base da investigação.
 
 **Checklist do Grupo 2**
-- [ ] Checkpoint Conceitual feito conforme orientação do professor (20 min, sem consulta)
-- [ ] Campo 03: 2 achados com objeto, 1 desvio com causa técnica, 1 decisão com fonte
-- [ ] Campo 04: ferramenta, pergunta íntegra, resumo, o que aceitei e o que questionei
+- [✅] Checkpoint Conceitual feito conforme orientação do professor (20 min, sem consulta)
+- [✅] Campo 03: 2 achados com objeto, 1 desvio com causa técnica, 1 decisão com fonte
+- [✅] Campo 04: ferramenta, pergunta íntegra, resumo, o que aceitei e o que questionei
 - [ ] Registros dos Ciclos 05, 06, 07 e 08 com os 7 itens (devolutiva da P1 no ciclo 06)
 - [ ] Commits no GitHub e painel atualizado
 
@@ -480,11 +480,11 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 07 — 07/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Organizar os dados necessários em uma lista e descobrir como alterar atributos, também organizados em lista._
+2. **O que implementei (commits / arquivos / links):** _Adição do sistema de seleção de classes e distribuição de atributos_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Listas: Armazenamento e iteração._
+4. **Desvio ou erro encontrado + causa técnica:** _Dificuldade ao criar o sistema de Distribuição de atributos: Erro na configuração do laço For + Esquecer de colocar "atributo" (identificação do que está armazenado na lista) no for._
+5. **Decisão de ajuste + fonte:** _ChatGPT, auxiliou a encontrar o erro e como resolver, dessa forma, descobri o motivo da utilização da identificação do armazenamento no laço For._
 6. **Feedback recebido e o que mudei:** _…_
 7. **Próximo passo:** _…_
 
