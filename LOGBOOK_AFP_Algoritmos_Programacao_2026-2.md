@@ -501,11 +501,11 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 08 — 14/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Descobrir como fazer o print correto de um dicionário._
+2. **O que implementei (commits / arquivos / links):** _CRUD_3.0: Implementação do sistema de escolha de Perícias._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Dicionários_
+4. **Desvio ou erro encontrado + causa técnica:** _Erro ao realizar print das perícias + Confundir "Nomes" com "Nome"._
+5. **Decisão de ajuste + fonte:** _Aviso do terminal_
 6. **Feedback recebido e o que mudei:** _…_
 7. **Próximo passo:** _…_
 
