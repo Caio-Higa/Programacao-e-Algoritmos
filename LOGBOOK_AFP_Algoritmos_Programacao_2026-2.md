@@ -311,8 +311,8 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 - [✅] Checkpoint Conceitual feito conforme orientação do professor (20 min, sem consulta)
 - [✅] Campo 03: 2 achados com objeto, 1 desvio com causa técnica, 1 decisão com fonte
 - [✅] Campo 04: ferramenta, pergunta íntegra, resumo, o que aceitei e o que questionei
-- [ ] Registros dos Ciclos 05, 06, 07 e 08 com os 7 itens (devolutiva da P1 no ciclo 06)
-- [ ] Commits no GitHub e painel atualizado
+- [✅] Registros dos Ciclos 05, 06, 07 e 08 com os 7 itens (devolutiva da P1 no ciclo 06)
+- [✅] Commits no GitHub e painel atualizado
 
 ## 🟠 CICLO 03 (campos) — 26/08 — Checkpoint, Campo 03 e Campo 04
 
@@ -544,10 +544,10 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 09 — 21/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Perceber erros e melhorar o que já se tinha._
+2. **O que implementei (commits / arquivos / links):** _Implementação do sistema de mudança de ficha, permitindo alterar dados anteriores como Nome, Atributos, Origem, Classe e Nível. Além de poder resetar a ficha._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Atualização e Exclusão._
+4. **Desvio ou erro encontrado + causa técnica:** _Após alterar o nível, a vida e determinação não se atualizava durante a modificação da ficha + Causa: Não perceber que os dados sobre a vida e determinação deveriam estar se atualizando junto do nível. Estar no mesmo laço._
 5. **Decisão de ajuste + fonte:** _…_
 6. **Feedback recebido e o que mudei:** _…_
 7. **Próximo passo:** _…_
@@ -563,9 +563,9 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 | | |
 |---|---|
-| **Autor do CRUD revisado** | _nome_ |
-| **Repositório revisado** | _link_ |
-| **Revisor** | _seu nome_ |
+| **Autor do CRUD revisado** | _Pedro Henrique Guimarães_ |
+| **Repositório revisado** | _https://github.com/PHbtt/Programa-o-e-Algoritmos.git_ |
+| **Revisor** | _Caio Henrique Higa Araújo_ |
 | **Unidade curricular / Semestre** | Algoritmos e Programação · 2026.2 |
 | **Ciclo / data** | _Ciclo 09 · 21/10_ |
 
@@ -573,7 +573,7 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 | ETAPA DO PROCESSO | RESPONSÁVEL | PRAZO | STATUS | DESVIO / JUSTIFICATIVA |
 |---|---|---|---|---|
-| 1. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
+| 1. _Revisão do CRUD completo_ | Caio Henrique / Pedro Henrique | _25/11_ | ☐ Concluída [x] Em andamento ☐ Com desvio | _…_ |
 | 2. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
 | 3. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
 | 4. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
@@ -619,7 +619,7 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 10 — 28/10
-1. **Desafio do ciclo (em 1 frase):** _…_
+1. **Desafio do ciclo (em 1 frase):** _Não pratiquei sobre o assunto._
 2. **O que implementei (commits / arquivos / links):** _…_
 3. **Objeto(s) de conhecimento mobilizado(s):** _…_
 4. **Desvio ou erro encontrado + causa técnica:** _…_
@@ -641,7 +641,7 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 11 — 04/11
-1. **Desafio do ciclo (em 1 frase):** _…_
+1. **Desafio do ciclo (em 1 frase):** _Não pratiquei sobre o assunto._
 2. **O que implementei (commits / arquivos / links):** _…_
 3. **Objeto(s) de conhecimento mobilizado(s):** _…_
 4. **Desvio ou erro encontrado + causa técnica:** _…_
@@ -654,12 +654,12 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **6a. Decisão técnica que defendo com plena autonomia — o que aprendi que é exclusivamente meu e não consigo transferir para nenhum colega:**
 
-> _…_
+> _Conhecimento básico sobre menus e laços de repetição._
 
 **6b. Lacuna técnica e plano de ação para saná-la:**
 
-- **Lacuna:** _…_
-- **Plano de ação (passos e datas):** _…_
+- **Lacuna:** _Dicionários, Modularização: Funções e Recursividade_
+- **Plano de ação (passos e datas):** _Estudar durante as férias para compreender como se utiliza corretamente._
 
 **6c. Pergunta que a banca pode fazer — com resposta fundamentada (mínimo 5 linhas):**
 
@@ -836,10 +836,10 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 ### Registro do Encerramento — 18/11
-1. **O que apresentei/defendi (em 1 frase):** _…_
-2. **Objeto(s) de conhecimento que a banca mais explorou:** _…_
+1. **O que apresentei/defendi (em 1 frase):** _Apresentei um CRUD sobre uma ficha automatizada do rpg de ordem paranormal_
+2. **Objeto(s) de conhecimento que a banca mais explorou:** _Quais variáveis foram utilizadas._
 3. **Pergunta que mais me desafiou e como respondi:** _…_
-4. **O que levo deste semestre para o próximo módulo:** _…_
+4. **O que levo deste semestre para o próximo módulo:** _Conhecimentos sobre a base da programação_
 
 ---
 
